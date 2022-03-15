@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: e7d7e8d3e26982245912bab532e88a48, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -623,7 +623,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1163207632}
   - component: {fileID: 1163207633}
-  - component: {fileID: 1163207634}
   - component: {fileID: 1163207635}
   m_Layer: 0
   m_Name: Board
@@ -659,19 +658,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _TilePrefab: {fileID: 1936415298506662517, guid: 237d69963f40a474094c2f3060bde236, type: 3}
---- !u!114 &1163207634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1163207631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 551ea809fc2a72446b82e6c011a07b0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _PlayerIndex: 1
 --- !u!114 &1163207635
 MonoBehaviour:
   m_ObjectHideFlags: 0
